@@ -54,6 +54,7 @@ let statuses = {
     NOT_FOUND: 104,
     SAME_VALUE: 105,
     WRONG_ARGS: 106,
+    ALREADY_DONE: 107,
     accounts: {
         EMAIL_EXISTS: 200,
         EMAIL_INCORRECT: 201,
