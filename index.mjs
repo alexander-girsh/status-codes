@@ -63,6 +63,10 @@ let statuses = {
         USERNAME_EXISTS: 204,
         INCORRECT_CREDENTIALS: 205,
         INCORRECT_USERNAME_LENGTH: 206
+    },
+    payments: {
+        INCORRECT_DEPOSIT_AMOUNT: 300,
+        INCORRECT_WITHDRAW_AMOUNT: 301
     }
 }
 
