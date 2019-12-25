@@ -116,8 +116,8 @@ const codes = addMessagesToValues(statuses)
 
 /** simply public comparison method which can short your RPC code ten times
  * @function codes.statusEqual
- * @param status1 {{code: String, message: Number}}
- * @param status2 {{code: String, message: Number}}
+ * @param status1 {{code: Number, message: String}}
+ * @param status2 {{code: Number, message: String}}
  * @returns boolean
  * */
 codes.statusEqual = (status1, status2) => {
