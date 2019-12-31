@@ -2,10 +2,13 @@
   "name": "status-codes",
   "version": "1.0.0",
   "install": "node install",
+  "postinstall": "node install",
   "devDependencies": {
     "husky": "^3.1.0"
   },
   "husky": {
-    "pre-commit": "npm version patch"
+    "hooks": {
+      "pre-commit": ""
+    }
   }
 }
