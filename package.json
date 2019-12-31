@@ -1,6 +1,6 @@
 {
   "name": "status-codes",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "scripts": {
     "install": "node install"
   },
@@ -9,7 +9,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": ""
+      "pre-commit": "npm version patch"
     }
   }
 }
