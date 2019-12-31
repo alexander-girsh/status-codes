@@ -1,6 +1,7 @@
 /**
- * @module status-codes exports the ecosystem-level
- * response codes and statuses to use it as the quick-read human-friendly response of
+ * @module status-codes/index
+ * @desc
+ * It exports the ecosystem-level response codes and statuses to use it as the quick-read human-friendly response of
  * any API or the public method of the neighbour module.
  *
  * The idea is based on the JSON-RPC protocol spec.
@@ -22,8 +23,11 @@
  */
 
 
+/**
+ * A collection of statuses
+ */
 
-
+import statuses from './statuses.js'
 
 /**
  * It calls native Object.freeze() for the object
@@ -44,31 +48,7 @@ function freezeObjectDeep (obj) {
 
 
 
-/**
- * A collection of statuses
- */
-let statuses = {
-    OK: 100,
-    FAIL: 101,
-    FORBIDDEN: 102,
-    NOT_FOUND: 104,
-    SAME_VALUE: 105,
-    WRONG_ARGS: 106,
-    ALREADY_DONE: 107,
-    accounts: {
-        EMAIL_EXISTS: 200,
-        EMAIL_INCORRECT: 201,
-        PASSWORD_INCORRECT: 202,
-        PASSWORD_TOO_WEAK: 203,
-        USERNAME_EXISTS: 204,
-        INCORRECT_CREDENTIALS: 205,
-        INCORRECT_USERNAME_LENGTH: 206
-    },
-    payments: {
-        INCORRECT_DEPOSIT_AMOUNT: 300,
-        INCORRECT_WITHDRAW_AMOUNT: 301
-    }
-}
+
 
 
 /**
