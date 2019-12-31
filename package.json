@@ -1,8 +1,9 @@
 {
   "name": "status-codes",
   "version": "1.0.0",
-  "install": "node install",
-  "postinstall": "node install",
+  "scripts": {
+    "install": "node install"
+  },
   "devDependencies": {
     "husky": "^3.1.0"
   },
