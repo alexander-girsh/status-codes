@@ -107,7 +107,7 @@ describe('module index.js', function () {
         expect(codes.statusEqual).to.be.a('function')
 
     })
-    
+
 })
 
 
