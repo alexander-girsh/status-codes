@@ -1,6 +1,6 @@
 {
   "name": "status-codes",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "scripts": {
     "install": "node install",
     "postinstall": "npm run test-js",
