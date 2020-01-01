@@ -27,7 +27,7 @@
  * A collection of statuses
  */
 
-import statuses from './statuses.js'
+const statuses = require('./statuses')
 
 /**
  * It calls native Object.freeze() for the object
@@ -115,6 +115,6 @@ codes.statusEqual = (status1, status2) => {
 freezeObjectDeep(codes)
 
 
-export {codes}
+module.exports = {codes}
 
 

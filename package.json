@@ -1,15 +1,23 @@
 {
   "name": "status-codes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
-    "install": "node install"
+    "install": "node install",
+    "postinstall": "npm run test-js",
+    "test-js": "mocha test --recursive --exit"
+  },
+  "engines": {
+    "node": "^12"
   },
   "devDependencies": {
-    "husky": "^3.1.0"
+    "@std/esm": "^0.26.0",
+    "chai": "^4.2.0",
+    "husky": "^3.1.0",
+    "mocha": "^6.2.2"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm version patch --force"
+      "pre-commit": "npm run test-js && npm version patch --force"
     }
   }
 }
