@@ -2,6 +2,7 @@
   "OK": 100,
   "FAIL": 101,
   "FORBIDDEN": 102,
+  "IMPOSSIBLE": 103,
   "NOT_FOUND": 104,
   "SAME_VALUE": 105,
   "WRONG_ARGS": 106,
