@@ -1,0 +1,8 @@
+{
+  "repositories":[
+    {
+      "type": "vcs",
+      "url": "git@github.com:noguilty4you/status-codes.git"
+    }
+  ]
+}
