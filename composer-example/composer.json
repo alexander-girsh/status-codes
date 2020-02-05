@@ -1,8 +1,11 @@
 {
   "repositories":[
     {
-      "type": "vcs",
-      "url": "git@github.com:noguilty4you/status-codes.git"
+      "type": "git",
+      "url": "https://github.com/noguilty4you/status-codes.git"
     }
-  ]
+  ],
+  "require": {
+    "noguilty4you/status-codes": "dev-php"
+  }
 }
